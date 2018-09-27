@@ -1,0 +1,13 @@
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    def publishVersionID = android.defaultConfig.versionName
+
+    userOrg = 'crystalmaidengotdivinerapier'
+    repoName = 'maven'
+    groupId = 'com.davesla'
+    artifactId = 'progressgif'
+    publishVersion = publishVersionID
+    desc = 'Add progress bar to gif'
+    website = 'https://github.com/CrystalMaidenGotDivineRapier/ProgressGif'
+}

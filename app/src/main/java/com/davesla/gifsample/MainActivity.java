@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         DefaultProcessor defaultProcessor = new DefaultProcessor();
-        defaultProcessor.setColor(Color.parseColor("#3399ff"));
+        defaultProcessor.setColor(Color.WHITE);
         defaultProcessor.setPosition(DefaultProcessor.Position.BOTTOM);
         processor = defaultProcessor;
 
@@ -60,12 +60,11 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if (checkedId == R.id.btn_default) {
                     DefaultProcessor defaultProcessor = new DefaultProcessor();
-                    defaultProcessor.setColor(Color.parseColor("#3399ff"));
+                    defaultProcessor.setColor(Color.WHITE);
                     defaultProcessor.setPosition(DefaultProcessor.Position.BOTTOM);
                     processor = defaultProcessor;
                 } else {
                     SquareProgressProcessor squareProgressProcessor = new SquareProgressProcessor();
-                    squareProgressProcessor.setOpacity(0.9f);
                     squareProgressProcessor.setStartPosition(SquareProgressProcessor.Position.TOP_LEFT);
                     squareProgressProcessor.setStrokeWidth(2);
                     processor = squareProgressProcessor;
@@ -79,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         ProgressGif progressGif = builder
                 .setDestPath(destPath)
                 .setSavePath(savePath)
-                .setScale(0.95f)
+                .setScale(0.5f)
                 .setGifQuality(ProgressParams.GifQuality.MEDIUM)
                 .setProcessor(processor)
                 .setProcessListener(new GifProcessListener() {

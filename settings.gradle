@@ -1,1 +1,1 @@
-include ':app', ':progress_gif'
+include ':app', ':progressgif'
