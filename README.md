@@ -22,7 +22,6 @@ gradle
 
 ```
 implementation 'com.davesla:progressgif:0.1.1'
-
 ```
 
 usage
