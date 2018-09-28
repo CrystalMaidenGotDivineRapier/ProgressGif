@@ -99,7 +99,7 @@ public class DefaultProcessor implements Processor {
         } else {
             //draw background
             canvas.drawLine(0, strokeWidth / 2,
-                    originBitmap.getWidth(), strokeWidth / 2, progressPaint);
+                    originBitmap.getWidth(), strokeWidth / 2, backgroundPaint);
 
             //draw progress
             canvas.drawLine(0, strokeWidth / 2,

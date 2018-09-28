@@ -18,6 +18,15 @@ A Gif Library simplely add a progress bar to the gif,so we can know where we are
 ![DefaultProcessor_TOP](art/top_right.gif "DefaultProcessor_TOP")
 
 ## How to use
+gradle
+
+```
+implementation 'com.davesla:progressgif:0.1.1'
+
+```
+
+usage
+
 ```java
 ProgressGif.Builder builder = new ProgressGif.Builder();
 ProgressGif progressGif = builder
