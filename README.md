@@ -82,3 +82,8 @@ builder.setProcessor(new MyProcessor());
 ```
 ## Reference
 GIF Decoder is originally based on [android-ndk-gif](https://github.com/waynejo/android-ndk-gif)
+
+## iOS Version
+<img src="https://raw.githubusercontent.com/aheze/ProgressGif/main/Assets/GitHub/Logo/LogoWithShadow.png" width="200">
+
+A similar, [open-source](https://github.com/aheze/ProgressGif) app (also called ProgressGif) is [available on the App Store](https://apps.apple.com/us/app/id1526969349)! Contributions are welcome.
